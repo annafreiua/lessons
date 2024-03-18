@@ -1,0 +1,35 @@
+@import url('reset.css');
+* {
+   color: olivedrab;
+}
+
+h1, #pink_lake {
+   color: magenta;
+}
+a {
+   color: blue;
+}
+.section_three > p {
+   color:red;
+}
+#lemur {
+   color: darkmagenta;
+}
+.section_three .lemurlake {
+   color: yellow;
+}
+p .active {
+   color: black;
+}
+ .section_two .green {
+color: lightgreen;
+ }
+ img + p {
+   color: black;
+ }
+ h1 ~ p {
+   color: salmon;
+ }
+[class*="text"] {
+   color: blueviolet
+}
